@@ -6,8 +6,12 @@ data/
 
 # 모델 가중치 체크포인트 (대용량, 재학습으로 재생성 가능)
 checkpoints/
+models/
 *.pth
 *.pt
+
+# np.memmap 캐시 파일 (대용량, 재생성 가능)
+*.memmap
 
 # 토크나이저 학습 결과 (SentencePiece 등, 재학습으로 재생성 가능)
 *.model
